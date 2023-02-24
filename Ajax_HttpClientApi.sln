@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajax_HttpClientApi", "Ajax_HttpClientApi\Ajax_HttpClientApi.csproj", "{A542DCFA-EDD9-4C42-BB7E-6BD0B68270FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D8CC16CE-7A88-41D6-8DFD-3ADFF26DE052}"
+	ProjectSection(SolutionItems) = preProject
+		Ajax-Http Client-Api and Mvc.txt = Ajax-Http Client-Api and Mvc.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajax_HttpClientMvc", "Ajax_HttpClientMvc\Ajax_HttpClientMvc.csproj", "{D0FC7614-FB6A-419E-A1F7-6ADB3A375D32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A542DCFA-EDD9-4C42-BB7E-6BD0B68270FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A542DCFA-EDD9-4C42-BB7E-6BD0B68270FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A542DCFA-EDD9-4C42-BB7E-6BD0B68270FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A542DCFA-EDD9-4C42-BB7E-6BD0B68270FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0FC7614-FB6A-419E-A1F7-6ADB3A375D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0FC7614-FB6A-419E-A1F7-6ADB3A375D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0FC7614-FB6A-419E-A1F7-6ADB3A375D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0FC7614-FB6A-419E-A1F7-6ADB3A375D32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5389B38B-306F-4B15-9FBA-791E1962BB6D}
+	EndGlobalSection
+EndGlobal

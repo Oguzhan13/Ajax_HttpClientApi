@@ -1,0 +1,31 @@
+NuGet Packages:
+	- Newtonsoft.Json
+
+Create Access folder -> Create Entities and Repositories folder in Access folder -> Create Abstracts & Concretes folders in Repositories folder
+	- Create entities and repositories in these folders
+	- Inject IoC container with AddSingleton() method for PersonRepository (builder.Services.Add ...)
+
+Create PersonController.cs in Controllers folder -> Add Attributes ([ApiController] & [Route("...")])
+	- Apply and fill methods in repositories
+
+Program.cs
+	-Add builderServices.AddCors(...) -> app.UseCors(...)
+		- Access to API project for anathor Project -> for this solition Ajax_HttpClientMvc project
+
+*** Create MVC Project in solition ***
+Program.cs
+	- Changing app.MapControllerRoute()
+	- Create AddHttpClient() method for builder.Services
+
+View/Shared/Layout.cshtml
+	- Changing Home Page codes in Navbar section
+
+Create PersonController.cs in Controllers folder -> Create Actions in PersonController.cs
+
+wwwroot/js/site.js -> create function for using AJAX -> function ... { $.ajax({ ...})}
+
+Create Index for PersonController.cs action -> Use GetPersons(), GetPerson(), CreatePerson() functions in site.js for Index
+
+Create PersonHttpController.cs in Controllers folder -> Create Actions and IHttpClientFactory injection process in PersonController.cs
+
+Create Person.cs in Models folder -> same properties other project's Person.cs in Access/Entities folder
